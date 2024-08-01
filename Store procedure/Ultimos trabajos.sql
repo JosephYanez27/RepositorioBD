@@ -33,8 +33,9 @@ raiserror('no se cuenta con la cantidad  de producto', 16,1)
 rollback transaction;
 end
 end
-end
+end;
 
+--ejemplo
 create or alter procedure sp_insert_order_details
 --Variables
 @id as int,
